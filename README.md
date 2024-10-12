@@ -51,13 +51,13 @@ Feature list :
 ---
 
 2. Import "Ar-Vikaru-bot.csv" file to Autoresponder
-   
+  
 - <a href="https://">
-   <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255123/tmp.jpg">
+   <img alt="Github" height="200px" src="https://files.catbox.moe/oiat1k.jpg">
   </a>
   
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255206/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/4rn197.jpg">
   </a>
   
 ---
@@ -65,10 +65,10 @@ Feature list :
 3. Import "Ar-Vikaru-Input.csv" file to Ar Answer Replacement
    
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255254/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/0zjvmi.jpg">
   </a>
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255272/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/5mgwam.jpg">
   </a>
   
 ---
@@ -76,7 +76,7 @@ Feature list :
 4. Go to Autoresponder settings and change "Automation" to like this
    
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255300/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/4wt63h.jpg">
   </a>
   
 ---
@@ -88,10 +88,10 @@ Feature list :
 6. Import the file "Tsk-Vikaru-plugin.xml" into the Tasker project and enable it
    
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255325/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/svogdw.jpg">
   </a>
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255680/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/o8pyi2.jpg">
   </a>
   
 ---
@@ -107,7 +107,7 @@ Feature list :
 9. Make sure your internet and notifications are not problematic, And don't forget to allow the all application permissions and always allow the application to run in the background. - then start
     
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255356/tmp.jpg">
+    <img alt="Github" height="200px" src="https://files.catbox.moe/rf1wal.jpg">
   </a>
   
 ---
