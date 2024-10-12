@@ -1,7 +1,7 @@
 Jika kamu pengguna chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan atas lalu pilih opsi "Terjemahkan"
 
 ---
-## Ar-Vikaru-Bot
+# Ar-Vikaru-Bot
 
 This is an Autoresponder file template developed by [Maxz-09](https://github.com/Maxz-09)
 
@@ -47,57 +47,73 @@ Feature list :
 ### Getting Started
 
 1. Download the latest file via [Releases](https://github.com/Maxz-09/Ar-Vikaru-Bot/releases/tag/Update)
+
 ---
 
 2. Import "Ar-Vikaru-bot.csv" file to Autoresponder
+   
 - <a href="https://">
-    <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255123/tmp.jpg">
+   <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255123/tmp.jpg">
   </a>
+  
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255206/tmp.jpg">
   </a>
+  
 ---
 
 3. Import "Ar-Vikaru-Input.csv" file to Ar Answer Replacement
+   
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255254/tmp.jpg">
   </a>
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255272/tmp.jpg">
   </a>
+  
 ---
 
 4. Go to Autoresponder settings and change "Automation" to like this
-<a href="https://">
+   
+- <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255300/tmp.jpg">
   </a>
   
 ---
+
 5. Then please change the settings according to your needs
+   
 ---
 
 6. Import the file "Tsk-Vikaru-plugin.xml" into the Tasker project and enable it
+   
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255325/tmp.jpg">
   </a>
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255680/tmp.jpg">
   </a>
+  
 ---
 
 7. Then open the "ContactsTask" application and allow permissions from the application and allow/turn on always running in the background.
+   
 ---
 
 8. Open the "AutoMail" application and log in using the email account you want to use as the sender of the verification code message from the registration feature in the bot and allow/enable the app to always run in the background.
+   
 ---
 
 9. Make sure your internet and notifications are not problematic, And don't forget to allow the all application permissions and always allow the application to run in the background. - then start
+    
 - <a href="https://">
     <img alt="Github" height="200px" src="https://tmpfiles.org/dl/14255356/tmp.jpg">
   </a>
+  
 ---
 
 10. Done, start using a simple command by typing :
+    
 ```bash
 /menu
 ```
@@ -125,7 +141,56 @@ buyer benefits :
 - Guided to be able to develop bots
 
 You can also use and see the bot features via community [group](https://chat.whatsapp.com/JfpGsd5GPh5EzvRVjm54tx)
+
+# Vikaru-Md
+Vikaru-Md is an additional script for the media sending system of [Vikaru-Bot](https://github.com/Maxz-09/ar-vikaru-bot).
+
+### How to download script
+- Clone repo
+```cmd
+git clone https://github.com/Maxz-09/base-vikaru-md
+```
+- Go to file directory
+```
+cd base-vikaru-md
+```
+- Install module
+```
+npm install
+```
+
+### Note :
+
+Make sure you have the latest version of nodeJS to avoid errors.
+
+How to install the latest nodeJS : 
+>https://github.com/nodesource/distributions
+
+<hr>
   
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Termux.svg/1280px-Termux.svg.png" alt="termux_logo" width="20"/> Termux :
+Especially for termux users, I recommend using "nodejs-lts" for nodejs, which is the LongTermSupport version
+```bash
+pkg install nodejs-lts -y
+```
+
+### How to start a script 
+- Start script
+```
+npm start
+```
+- Then enter the WA number (62: country code)
+```
+628xxxx
+```
+- Then copy the pairing code and enter the code via the WA notification that appears.
+  
+- Wait until it enters, then name the device as you wish.
+
+- Then try sending a simple cmd to the bot number
+```
+/ping
+```
 ### Contributing
 
 Feel free to contribute by opening issues or pull requests. Your feedback and contributions are highly appreciated.
