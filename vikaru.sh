@@ -67,6 +67,20 @@ if [ $? -eq 0 ];then
     sleep 1
     echo -e $hijau " • [✓] Nodejs installed"
     echo
+fi
+    dpkg -s nodejs-lts &> /dev/null
+if [ $? -eq 0 ];then
+    echo -e $hijau " • [✓] Nodejs-lts installed"
+    sleep 1
+    else
+    echo
+    echo -e $kuning " • [/] Installing Nodejs-lts...."|pv -qL 30
+    echo
+    apt install nodejs-lts -y
+    echo
+    sleep 1
+    echo -e $hijau " • [✓] Nodejs-lts installed"
+    echo
     fi
     sleep 1
     echo -e $putih "-----------------------------"
@@ -76,7 +90,7 @@ if [ $? -eq 0 ];then
     menu
 }
 
-# Menu
+# Vikaru-Menu
 menu() {
     echo -e -n $putih;figlet "Vikaru-Menu"
     echo -e $putih "-----------------------------"
