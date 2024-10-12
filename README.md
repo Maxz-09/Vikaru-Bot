@@ -6,21 +6,19 @@ Jika kamu pengguna chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan ata
 
 VikaruBot is a bot that uses a template from the Autoresponder application and also uses additional plugins from Tasker and Termux, this bot is quite simple and can be developed yourself. 
 
-### How to download this bot
+## How to download this bot
 
 - Please download the vikaru.sh file in the commit above
+```
+pkg install git
+```
+```
+git clone https://github.com/Maxz-09/Vikaru-Bot
+```
 
 - Enter the file storage directory
 ```
-cd /storage/emulated/0/Download/Vikaru-Bot/
-```
-
-- Then extract the file
-```
-pkg install unzip
-```
-```
-unzip vikaru.zip
+cd Vikaru-Bot
 ```
 
 - Run the script vikaru.sh
@@ -28,24 +26,24 @@ unzip vikaru.zip
 bash vikaru.sh
 ```
 
-# Ar-Vikaru-Bot
+## Ar-Vikaru-Bot install | 2
 
 This is an Autoresponder file template developed by [Maxz-09](https://github.com/Maxz-09)
 
 The purpose of creating this template is to be able to use a WhatsApp bot that is easy to develop yourself without the need for coding and programming language skills.
 
-### Superiority 
+#### Superiority 
 
 The advantages of this bot are as follows :
 
 - Multi Prefix & Multi Device
 - No need to run using a server
 - Registration System (save contact)
-- Media sending system [Vikaru-Md](https://github.com/Maxz-09/base-vikaru-md)
+- Media sending system Vikaru-Md
 - API System [Vikaru-Api](https://vikaru-api.bohr.io/)
 - Tasker System
 
-### Features
+#### Features
 
 This bot has more than 100+ features that can definitely help you through its AI features, and it can also entertain you in your free time with its fun features.
 
@@ -65,13 +63,13 @@ Feature list :
 - Kalkulator 
 - Api-Ai
 
-### Required apps
+#### Required apps
 1. [AutoResponder Wa](https://play.google.com/store/apps/dev?id=7857280643314172854) (subscribe/sell)
 2. [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) (sell)
 3. [ContactsTask](https://play.google.com/store/apps/details?id=com.balda.contactstask) (free)
 4. [AutoMail](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.joaomgcd.autogmail%26hl%3Did%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Daplikasi%2Bautomail%26pcampaignid%3DAPPU_1_v2QCZ6CrKeyJ4-EPhaS-4AQ&ved=2ahUKEwjghreuxPmIAxXsxDgGHQWSD0wQ5YQBegQIDBAC&usg=AOvVaw1y31sjS79VE0U_TperMzev) (sell)
    
-### Getting Started
+#### Getting Started
 
 1. Download the latest file via [Releases](https://github.com/Maxz-09/Ar-Vikaru-Bot/releases/tag/Update)
 
@@ -145,15 +143,47 @@ Feature list :
 /menu
 ```
 
-### Note
+#### Note
 
 - Bots do not reply if they do not receive notifications, make sure the notification is sent correctly. If you open and read a message when someone sends a message, the notification will not come in and can cause bot not replying. and make sure you have a stable internet connection to receive messages.
 
 - This bot prefix uses RegEx in almost all of its cmds, make sure you have basic knowledge about Regular Expression.
 
 - This bot mostly uses Indonesian, if you want to use another language, please just request it to the owner.
-   
-### Template Info 
+
+## Base-Vikaru-Md install | 3
+Vikaru-Md is an additional script for the media sending system of Vikaru-Bot
+
+#### Main
+
+- Then enter the WA number (62: country code)
+```
+628xxxx
+```
+- Then copy the pairing code and enter the code via the WA notification that appears.
+  
+- Wait until it enters, then name the device as you wish.
+
+- Then try sending a simple cmd to the bot number
+```
+/ping
+```
+
+#### Note :
+
+Make sure you have the latest version of nodeJS to avoid errors.
+
+How to install the latest nodeJS : 
+>https://github.com/nodesource/distributions
+
+<hr>
+  
+#### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Termux.svg/1280px-Termux.svg.png" alt="termux_logo" width="20"/> Termux :
+Especially for termux users, I recommend using "nodejs-lts" for nodejs, which is the LongTermSupport version
+```bash
+pkg install nodejs-lts -y
+```
+## Template Info 
 
 You can buy Bot templates via this WA number:
 ```bash
@@ -169,56 +199,7 @@ buyer benefits :
 
 You can also use and see the bot features via community [group](https://chat.whatsapp.com/JfpGsd5GPh5EzvRVjm54tx)
 
-# Vikaru-Md
-Vikaru-Md is an additional script for the media sending system of [Vikaru-Bot](https://github.com/Maxz-09/ar-vikaru-bot).
-
-### How to download script
-- Clone repo
-```cmd
-git clone https://github.com/Maxz-09/base-vikaru-md
-```
-- Go to file directory
-```
-cd base-vikaru-md
-```
-- Install module
-```
-npm install
-```
-
-### Note :
-
-Make sure you have the latest version of nodeJS to avoid errors.
-
-How to install the latest nodeJS : 
->https://github.com/nodesource/distributions
-
-<hr>
-  
-### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Termux.svg/1280px-Termux.svg.png" alt="termux_logo" width="20"/> Termux :
-Especially for termux users, I recommend using "nodejs-lts" for nodejs, which is the LongTermSupport version
-```bash
-pkg install nodejs-lts -y
-```
-
-### How to start a script 
-- Start script
-```
-npm start
-```
-- Then enter the WA number (62: country code)
-```
-628xxxx
-```
-- Then copy the pairing code and enter the code via the WA notification that appears.
-  
-- Wait until it enters, then name the device as you wish.
-
-- Then try sending a simple cmd to the bot number
-```
-/ping
-```
-### Contributing
+## Contributing
 
 Feel free to contribute by opening issues or pull requests. Your feedback and contributions are highly appreciated.
 
