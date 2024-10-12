@@ -9,10 +9,14 @@ VikaruBot is a bot that uses a template from the Autoresponder application and a
 ## How to download this bot
 
 - Open your terminal / [termux](https://github.com/termux/termux-app/releases/tag/v0.118.1)
-- Please download the vikaru.sh file in the commit above
+- Update your termux ( opsional )
+```
+apt update && apt upgrade -y
+```
 ```
 pkg install git
 ```
+- Clone Vikaru-Bot repo
 ```
 git clone https://github.com/Maxz-09/Vikaru-Bot
 ```
