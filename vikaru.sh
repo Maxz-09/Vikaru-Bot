@@ -3,7 +3,7 @@
 # Author - github : Maxz-09
 # Author - no wa : +6289508899033
 
-# Color
+# Color List
 putih="\033[00m"
 merah="\033[31m"
 hijau="\033[32m"
