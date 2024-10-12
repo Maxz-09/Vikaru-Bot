@@ -139,6 +139,7 @@ if [ $pil == "3" ];then
     echo 
     echo -e $kuning " • [/] Installing module...."|pv -qL 30
     echo -e $putih " "
+    cd /storage/emulated/0/.vikaru-bot/base-vikaru-md
     yarn install -y
     echo 
     echo -e $hijau " # [✓] Succssesfully"|pv -qL 30
