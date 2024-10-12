@@ -1,6 +1,33 @@
 Jika kamu pengguna chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan atas lalu pilih opsi "Terjemahkan"
 
 ---
+
+# Vikaru-Bot
+
+VikaruBot is a bot that uses a template from the Autoresponder application and also uses additional plugins from Tasker and Termux, this bot is quite simple and can be developed yourself. 
+
+### How to download this bot
+
+- Please download the vikaru.sh file in the commit above
+
+- Enter the file storage directory
+```
+cd /storage/emulated/0/Download/Vikaru-Bot/
+```
+
+- Then extract the file
+```
+pkg install unzip
+```
+```
+unzip vikaru.zip
+```
+
+- Run the script vikaru.sh
+```
+bash vikaru.sh
+```
+
 # Ar-Vikaru-Bot
 
 This is an Autoresponder file template developed by [Maxz-09](https://github.com/Maxz-09)
