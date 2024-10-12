@@ -160,6 +160,7 @@ if [ $pil == "4" ];then
     npm start
 fi
 if [ $pil == "5" ];then
+    echo
     echo -e $hijau" # [✓] Exit"
     exit
     else
