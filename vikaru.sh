@@ -114,7 +114,7 @@ menu() {
     echo -e " • [2] Ar-Vikaru-Bot ( install )"
     echo -e " • [3] Base-Vikaru-Md ( install )"
     echo -e " • [4] Base-Vikaru-Md ( start )"
-    echo -e " • [5] All script ( updste )"
+    echo -e " • [5] All script ( update )"
     echo -e " • [6] Exit"
     echo
     mainmenu
