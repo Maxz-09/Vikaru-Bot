@@ -202,12 +202,12 @@ if [ $pil == "5" ];then
     echo -e $kuning " # [/] Update..."
     echo -e $putih "-----------------------------"
     echo -e $hijau " • [/] Vikaru-Menu"
-    echo
+    echo -e $putih " "
     git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/
     git pull
     echo
     echo -e $hijau " • [/] Ar-Vikaru-Bot"
-    echo
+    echo -e $putih
     git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
     git pull
     echo -e $putih "-----------------------------"
