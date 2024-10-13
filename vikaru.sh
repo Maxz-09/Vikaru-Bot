@@ -206,9 +206,8 @@ if [ $pil == "6" ];then
     echo -e $hijau" # [✓] Exit"
     exit
     else
-    echo
     echo -e $merah" # [!] Input denied"
-    sleep 3
+    sleep 1
     menu
 fi
 }
