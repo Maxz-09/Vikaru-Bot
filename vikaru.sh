@@ -33,7 +33,7 @@ if [ $? -eq 0 ];then
     else
     echo
     echo -e $kuning " • [/] Installing Figlet...."|pv -qL 30
-    echo
+    echo -e $putih " "
     apt install figlet -y
     echo
     sleep 1
@@ -47,7 +47,7 @@ if [ $? -eq 0 ];then
     else
     echo
     echo -e $kuning " • [/] Installing Git...."|pv -qL 30
-    echo
+    echo -e $putih " "
     apt install git -y
     echo
     sleep 1
@@ -61,7 +61,7 @@ if [ $? -eq 0 ];then
     else
     echo
     echo -e $kuning " • [/] Installing Bash...."|pv -qL 30
-    echo
+    echo -e $putih " "
     apt install bash -y
     echo
     sleep 1
@@ -75,7 +75,7 @@ if [ $? -eq 0 ];then
     else
     echo
     echo -e $kuning " • [/] Installing Nodejs...."|pv -qL 30
-    echo
+    echo -e $putih " "
     apt install nodejs -y
     echo
     sleep 1
@@ -89,7 +89,7 @@ if [ $? -eq 0 ];then
     else
     echo
     echo -e $kuning " • [/] Installing Nodejs-lts...."|pv -qL 30
-    echo
+    echo -e $putih " "
     apt install nodejs-lts -y
     echo
     sleep 1
