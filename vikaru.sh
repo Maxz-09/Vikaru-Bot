@@ -68,20 +68,6 @@ if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Bash installed"
     echo
 fi
-    dpkg -s nodejs &> /dev/null
-if [ $? -eq 0 ];then
-    echo -e $hijau " • [✓] Nodejs installed"
-    sleep 1
-    else
-    echo
-    echo -e $kuning " • [/] Installing Nodejs...."|pv -qL 30
-    echo -e $putih " "
-    apt install nodejs -y
-    echo
-    sleep 1
-    echo -e $hijau " • [✓] Nodejs installed"
-    echo
-fi
     dpkg -s nodejs-lts &> /dev/null
 if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Nodejs-lts installed"
