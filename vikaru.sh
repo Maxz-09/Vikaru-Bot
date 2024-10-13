@@ -207,6 +207,7 @@ if [ $pil == "5" ];then
     echo -e $hijau " # [✓]  Succssesfully"
     sleep 3
     exit
+fi
 if [ $pil == "6" ];then
     echo
     echo -e $hijau" # [✓] Exit"
@@ -218,6 +219,5 @@ if [ $pil == "6" ];then
     menu
 fi
 }
-
 # Start
 enter
