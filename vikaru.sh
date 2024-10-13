@@ -137,8 +137,9 @@ if [ $pil == "1" ];then
     echo -e $hijau " # [add] /storage/emulated/0/.vikaru-bot"|pv -qL 30
     sleep 3
     echo
-    echo -e $kuning " # [!] Start this cmd"
-    echo -e $kuning "cd /storage/emulated/0/.vikaru-bot && bash vikaru.sh"
+    echo -e $kuning " # [!] Start this cmd :"
+    echo -e $putih " "
+    echo -e $kuning "  cd /storage/emulated/0/.vikaru-bot && bash vikaru.sh"
     exit
 fi
 if [ $pil == "2" ];then
