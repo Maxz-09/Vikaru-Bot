@@ -117,6 +117,7 @@ if [ $pil == "1" ];then
     sleep 1
     echo
     mkdir /storage/emulated/0/.vikaru-bot
+    mv -i vikaru.sh /storage/emulated/0/.vikaru-bot
     echo -e $hijau " # [add] /storage/emulated/0/.vikaru-bot"|pv -qL 30
     sleep 3
     menu
