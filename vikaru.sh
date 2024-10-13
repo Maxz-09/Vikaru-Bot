@@ -133,6 +133,7 @@ if [ $pil == "1" ];then
     echo
     mkdir /storage/emulated/0/.vikaru-bot
     mv vikaru.sh /storage/emulated/0/.vikaru-bot
+    mv .git /storage/emulated/0/.vikaru-bot
     echo -e $putih "-----------------------------"
     echo -e $hijau " # [✓] add /storage/emulated/0/.vikaru-bot"|pv -qL 30
     sleep 1
