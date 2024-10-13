@@ -54,6 +54,20 @@ if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Git installed"
     echo
 fi
+    dpkg -s bash &> /dev/null
+if [ $? -eq 0 ];then
+    echo -e $hijau " • [✓] Bash installed"
+    sleep 1
+    else
+    echo
+    echo -e $kuning " • [/] Installing Bash...."|pv -qL 30
+    echo
+    apt install bash -y
+    echo
+    sleep 1
+    echo -e $hijau " • [✓] Bash installed"
+    echo
+fi
     dpkg -s nodejs &> /dev/null
 if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Nodejs installed"
@@ -120,7 +134,8 @@ if [ $pil == "1" ];then
     mv -i vikaru.sh /storage/emulated/0/.vikaru-bot
     echo -e $hijau " # [add] /storage/emulated/0/.vikaru-bot"|pv -qL 30
     sleep 3
-    menu
+    echo -e $kuning "bash vikaru.sh"
+    exit
 fi
 if [ $pil == "2" ];then
     clear
@@ -176,6 +191,23 @@ if [ $pil == "4" ];then
     npm start
 fi
 if [ $pil == "5" ];then
+    echo
+    echo -e $kuning " # [/] Update..."
+    echo -e $putih "-----------------------------"
+    git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/
+    git pull
+    echo
+    echo -e $hijau " • Vikaru-Menu"
+    echo
+    git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
+    git pull
+    echo
+    echo -e $hijau " • [✓] Ar-Vikaru-Bot"
+    echo -e $putih "-----------------------------"
+    echo -e $hijau " # [✓]  Succssesfully"
+    sleep 3
+    exit
+if [ $pil == "6" ];then
     echo
     echo -e $hijau" # [✓] Exit"
     exit
