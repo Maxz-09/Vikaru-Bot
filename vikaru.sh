@@ -114,7 +114,8 @@ menu() {
     echo -e " • [2] Ar-Vikaru-Bot ( install )"
     echo -e " • [3] Base-Vikaru-Md ( install )"
     echo -e " • [4] Base-Vikaru-Md ( start )"
-    echo -e " • [5] Exit"
+    echo -e " • [5] All script ( updste )"
+    echo -e " • [6] Exit"
     echo
     mainmenu
     }
@@ -132,10 +133,12 @@ if [ $pil == "1" ];then
     echo
     mkdir /storage/emulated/0/.vikaru-bot
     mv -i vikaru.sh /storage/emulated/0/.vikaru-bot
+    echo
     echo -e $hijau " # [add] /storage/emulated/0/.vikaru-bot"|pv -qL 30
     sleep 3
-    echo -e $kuning "bash vikaru.sh"
-    cd /storage/emulated/0/.vikaru-bot/
+    echo
+    echo -e $kuning " # [!] Start this cmd"
+    echo -e $kuning "cd /storage/emulated/0/.vikaru-bot && bash vikaru.sh"
     exit
 fi
 if [ $pil == "2" ];then
