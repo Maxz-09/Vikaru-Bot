@@ -218,7 +218,7 @@ This feature functions to update all files, make sure you back up the files befo
 Sell : $1 / 15.000 IDR
 
 You can buy Bot templates via this WA number:
-```bash
+```
 +6289508899033
 ```
 
