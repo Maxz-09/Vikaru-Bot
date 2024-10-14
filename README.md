@@ -40,6 +40,8 @@ bash vikaru.sh
 
 # Script feature info :
 
+The following is a menu list from the "vikaru.sh" script.
+
 ### [1] Creating a bot directory | ( 1x only )
 
 Users who are new to using this script are required to use this feature only once.
