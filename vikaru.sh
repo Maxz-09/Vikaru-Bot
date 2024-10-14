@@ -122,7 +122,7 @@ if [ $? -eq 0 ];then
 menu() {
     echo -e -n $putih;figlet "Vikaru-Menu"
     echo -e $putih "-----------------------------"
-    echo -e " # Select an options [1/3] :"
+    echo -e " # Select an options [1/6] :"
     echo -e $putih "-----------------------------"
     echo -e " • [1] Create bot directory ( 1x only )"
     echo -e " • [2] Ar-Vikaru-Bot ( install )"
