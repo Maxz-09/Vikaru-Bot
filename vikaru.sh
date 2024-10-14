@@ -219,7 +219,6 @@ elif [ $pil == "5" ];then
     echo
     echo -e $hijau " • [/] Ar-Vikaru-Bot :"
     echo -e $putih
-    cd /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
     git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
     git pull
     echo -e $putih "-----------------------------"
