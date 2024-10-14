@@ -95,7 +95,7 @@ if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Libwebp installed"
     echo
 fi
-dpkg -s ffmpeg &> /dev/null
+    dpkg -s ffmpeg &> /dev/null
 if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Ffmpeg installed"
     sleep 1
