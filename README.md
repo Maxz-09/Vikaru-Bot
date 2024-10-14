@@ -175,11 +175,11 @@ Feature list :
 
 ### [3] Base-Vikaru-Md | ( install )
 
-The function of this feature is to download the file "base-vikaru-md" 
+The function of this option is to download the file "base-vikaru-md" 
+
+This file is an "Vikaru-Md" ( multi device ) script which functions as an additional feature for sending media. 
 
 ##### Note :
-
-Vikaru-Md is an additional script for the media sending system of vikaru-bot
 
 Make sure you have the latest version of nodeJS to avoid errors.
 
@@ -222,8 +222,12 @@ You can buy Bot templates via this WA number:
 
 buyer benefits :
 
-- Get file ( "Ar-Vikar-Bot.csv" | "Ar-Vikaru-Input.csv | "Tsk-Vikaru-Plugin.xml" )
-- Always Get Free updates
+- Get file
+ > "Ar-Vikar-Bot.csv"
+ > "Ar-Vikaru-Input.csv"
+ > "Tsk-Vikaru-Plugin.xml"
+ > base-vikaru-md"
+- Get token for file access ( free update )
 - Given guidance to modify
 - Guided to be able to develop bots
 
