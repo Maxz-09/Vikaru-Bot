@@ -217,11 +217,13 @@ if [ $pil == "5" ];then
     echo -e $putih "-----------------------------"
     echo -e $hijau " • [/] Vikaru-Menu"
     echo -e $putih " "
+    cd /storage/emulated/0/.vikaru-bot/
     git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/
     git pull
     echo
     echo -e $hijau " • [/] Ar-Vikaru-Bot"
     echo -e $putih
+    cd /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
     git config --global --add safe.directory /storage/emulated/0/.vikaru-bot/ar-vikaru-bot/
     git pull
     echo -e $putih "-----------------------------"
