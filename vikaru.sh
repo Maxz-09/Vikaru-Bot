@@ -81,6 +81,7 @@ if [ $? -eq 0 ];then
     sleep 1
     echo -e $hijau " • [✓] Nodejs-lts installed"
     echo
+fi
     dpkg -s libwebp &> /dev/null
 if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Libwebp installed"
