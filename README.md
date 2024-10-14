@@ -20,6 +20,9 @@ apt update && apt upgrade -y
 ```
 pkg install git
 ```
+```
+pkg install bash
+```
 - Clone Vikaru-Bot repo
 ```
 git clone https://github.com/Maxz-09/Vikaru-Bot
