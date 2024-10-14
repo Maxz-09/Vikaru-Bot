@@ -93,7 +93,7 @@ Feature list :
    
 #### Getting Started
 
-1. Download the latest file via [Releases](https://github.com/Maxz-09/Ar-Vikaru-Bot/releases/tag/Update)
+1. Download the latest file via the "vikaru.sh" script and select option ( 5 ) to update the file.
 
 ---
 
