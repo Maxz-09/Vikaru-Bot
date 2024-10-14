@@ -81,6 +81,33 @@ if [ $? -eq 0 ];then
     sleep 1
     echo -e $hijau " • [✓] Nodejs-lts installed"
     echo
+    dpkg -s libwebp &> /dev/null
+if [ $? -eq 0 ];then
+    echo -e $hijau " • [✓] Libwebp installed"
+    sleep 1
+    else
+    echo
+    echo -e $kuning " • [/] Installing Libwebp...."|pv -qL 30
+    echo -e $putih " "
+    apt install libwebp -y
+    echo
+    sleep 1
+    echo -e $hijau " • [✓] Libwebp installed"
+    echo
+fi
+dpkg -s ffmpeg &> /dev/null
+if [ $? -eq 0 ];then
+    echo -e $hijau " • [✓] Ffmpeg installed"
+    sleep 1
+    else
+    echo
+    echo -e $kuning " • [/] Installing Ffmpeg...."|pv -qL 30
+    echo -e $putih " "
+    apt install ffmpeg -y
+    echo
+    sleep 1
+    echo -e $hijau " • [✓] Ffmpeg installed"
+    echo
     fi
     sleep 1
     echo -e $putih "-----------------------------"
