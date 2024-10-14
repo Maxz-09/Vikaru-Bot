@@ -40,7 +40,7 @@ bash vikaru.sh
 
 # Script feature info :
 
-### Creating a bot directory | ( 1 )
+### [1] Creating a bot directory | ( 1x only )
 
 Users who are new to using this script are required to use this feature only once.
 
