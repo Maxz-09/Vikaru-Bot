@@ -222,14 +222,14 @@ You can buy Bot templates via this WA number:
 +6289508899033
 ```
 
+Get file :
+
+- Ar-Vikar-Bot.csv
+- Ar-Vikaru-Input.csv
+- Tsk-Vikaru-Plugin.xml
+- base-vikaru-md
+
 buyer benefits :
-
-- Get file
-
-+ "Ar-Vikar-Bot.csv"
-+ "Ar-Vikaru-Input.csv"
-+ "Tsk-Vikaru-Plugin.xml"
-+ base-vikaru-md"
 
 - Get token for file access ( free update )
 - Given guidance to modify
