@@ -40,19 +40,19 @@ bash vikaru.sh
 
 # Script feature info :
 
-## Creating a bot directory | ( 1 )
+### Creating a bot directory | ( 1 )
 
 Users who are new to using this script are required to use this feature only once.
 
 The function of this feature is to create a special folder for the bot called ".vikaru-bot" which aims to ensure that the downloaded files can be viewed through this folder so that users no need to move the file from the external termux files
 
-## [2] Ar-Vikaru-Bot | ( install )
+### [2] Ar-Vikaru-Bot | ( install )
 
 This is an Autoresponder file template developed by [Maxz-09](https://github.com/Maxz-09)
 
 The purpose of creating this template is to be able to use a WhatsApp bot that is easy to develop yourself without the need for coding and programming language skills.
 
-#### Superiority 
+##### Superiority 
 
 The advantages of this bot are as follows :
 
@@ -63,7 +63,7 @@ The advantages of this bot are as follows :
 - API System [Vikaru-Api](https://vikaru-api.bohr.io/)
 - Tasker System
 
-#### Features
+##### Features
 
 This bot has more than 100+ features that can definitely help you through its AI features, and it can also entertain you in your free time with its fun features.
 
@@ -83,7 +83,7 @@ Feature list :
 - Kalkulator 
 - Api-Ai
 
-#### Required apps
+##### Required apps
 1. [AutoResponder Wa](https://play.google.com/store/apps/dev?id=7857280643314172854) (subscribe/sell)
 2. [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) (sell)
 3. [ContactsTask](https://play.google.com/store/apps/details?id=com.balda.contactstask) (free)
@@ -163,7 +163,7 @@ Feature list :
 /menu
 ```
 
-#### Note
+##### Note
 
 - Bots do not reply if they do not receive notifications, make sure the notification is sent correctly. If you open and read a message when someone sends a message, the notification will not come in and can cause bot not replying. and make sure you have a stable internet connection to receive messages.
 
@@ -171,13 +171,28 @@ Feature list :
 
 - This bot mostly uses Indonesian, if you want to use another language, please just request it to the owner.
 
-## [3] Base-Vikaru-Md | ( install )
-
-Vikaru-Md is an additional script for the media sending system of vikaru-bot
+### [3] Base-Vikaru-Md | ( install )
 
 The function of this feature is to download the file "base-vikaru-md" 
 
-## [4] Base-Vikaru-Md | ( start )
+##### Note :
+
+Vikaru-Md is an additional script for the media sending system of vikaru-bot
+
+Make sure you have the latest version of nodeJS to avoid errors.
+
+How to install the latest nodeJS : 
+>https://github.com/nodesource/distributions
+
+<hr>
+  
+#### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Termux.svg/1280px-Termux.svg.png" alt="termux_logo" width="20"/> Termux :
+Especially for termux users, I recommend using "nodejs-lts" for nodejs, which is the LongTermSupport version
+```bash
+pkg install nodejs-lts -y
+```
+
+### [4] Base-Vikaru-Md | ( start )
 
 - Then enter the WA number (62: country code)
 ```
@@ -192,19 +207,10 @@ The function of this feature is to download the file "base-vikaru-md"
 /ping
 ```
 
-#### Note :
+### [5] All Script | ( Update )
+##### Note :
 
-Make sure you have the latest version of nodeJS to avoid errors.
 
-How to install the latest nodeJS : 
->https://github.com/nodesource/distributions
-
-<hr>
-  
-#### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Termux.svg/1280px-Termux.svg.png" alt="termux_logo" width="20"/> Termux :
-Especially for termux users, I recommend using "nodejs-lts" for nodejs, which is the LongTermSupport version
-```bash
-pkg install nodejs-lts -y
 ```
 ## Template Info 
 
