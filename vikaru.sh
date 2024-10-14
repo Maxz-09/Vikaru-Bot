@@ -173,8 +173,7 @@ elif [ $pil == "2" ];then
     echo -e $hijau " # [✓] Succssesfully"|pv -qL 30
     sleep 2
     menu
-fi
-if [ $pil == "3" ];then
+elif [ $pil == "3" ];then
     clear
     cd /storage/emulated/0/.vikaru-bot
     echo -e -n $putih;figlet "Isntall-Md"
@@ -195,8 +194,7 @@ if [ $pil == "3" ];then
     echo -e $hijau " # [✓] Succssesfully"|pv -qL 30
     sleep 2
     menu
-fi
-if [ $pil == "4" ];then
+elif [ $pil == "4" ];then
     clear
     cd /storage/emulated/0/.vikaru-bot
     echo -e -n $putih;figlet "Start-Md"
@@ -209,8 +207,7 @@ if [ $pil == "4" ];then
     echo -e $putih
     cd base-vikaru-md
     npm start
-fi
-if [ $pil == "5" ];then
+elif [ $pil == "5" ];then
     echo
     echo -e $kuning " # [/] Update..."
     echo -e $putih "-----------------------------"
@@ -229,12 +226,11 @@ if [ $pil == "5" ];then
     echo -e $hijau " # [✓]  Succssesfully"
     sleep 3
     exit
-fi
-if [ $pil == "6" ];then
+elif [ $pil == "6" ];then
     echo
     echo -e $hijau" # [✓] Exit"
     exit
-    else
+else
     echo -e $merah" # [!] Input denied"
     sleep 1
     menu
