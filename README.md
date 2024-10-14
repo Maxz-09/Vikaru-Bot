@@ -210,10 +210,9 @@ pkg install nodejs-lts -y
 ```
 
 ### [5] All Script | ( Update )
-##### Note :
 
+This feature functions to update all files, make sure you back up the files before updating because the update will overwrite files that you have not backed up. 
 
-```
 ## Template Info 
 
 You can buy Bot templates via this WA number:
