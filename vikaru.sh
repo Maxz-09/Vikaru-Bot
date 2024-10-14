@@ -110,7 +110,6 @@ if [ $? -eq 0 ];then
     echo -e $hijau " • [✓] Ffmpeg installed"
     echo
     fi
-    sleep 1
     echo -e $putih "-----------------------------"
     echo -e $hijau " # [✓] Succssesfully"|pv -qL 30
     sleep 2
