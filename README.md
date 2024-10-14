@@ -38,7 +38,15 @@ cd Vikaru-Bot
 bash vikaru.sh
 ```
 
-## Ar-Vikaru-Bot install | 2
+# Script feature info :
+
+## Creating a bot directory | ( 1 )
+
+Users who are new to using this script are required to use this feature only once.
+
+The function of this feature is to create a special folder for the bot called ".vikaru-bot" which aims to ensure that the downloaded files can be viewed through this folder so that users no need to move the file from the external termux files
+
+## [2] Ar-Vikaru-Bot | ( install )
 
 This is an Autoresponder file template developed by [Maxz-09](https://github.com/Maxz-09)
 
@@ -163,10 +171,13 @@ Feature list :
 
 - This bot mostly uses Indonesian, if you want to use another language, please just request it to the owner.
 
-## Base-Vikaru-Md install | 3
-Vikaru-Md is an additional script for the media sending system of Vikaru-Bot
+## [3] Base-Vikaru-Md | ( install )
 
-#### Main
+Vikaru-Md is an additional script for the media sending system of vikaru-bot
+
+The function of this feature is to download the file "base-vikaru-md" 
+
+## [4] Base-Vikaru-Md | ( start )
 
 - Then enter the WA number (62: country code)
 ```
