@@ -235,7 +235,7 @@ Get file :
 Buyer benefits :
 
 - Get token for file access
-- Get free updates 4x/month
+- Get free updates 4x/month ( Always )
 - Given guidance to modify
 - Guided to be able to develop bots
 
