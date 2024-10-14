@@ -12,7 +12,7 @@ kuning="\033[33m"
 # Confirm resource check 
 enter() {
     echo
-    echo -e $putih " # [!] Checking system files, make sure your internet is Good"
+    echo -e $putih " # [!] Checking system files, make sure your internet is Good!"
     read -r -s -p $'  # [?] Press enter to continue....\n'
     function back_option () {
         clear 
