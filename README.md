@@ -225,10 +225,12 @@ You can buy Bot templates via this WA number:
 buyer benefits :
 
 - Get file
- • "Ar-Vikar-Bot.csv"
- • "Ar-Vikaru-Input.csv"
- • "Tsk-Vikaru-Plugin.xml"
- • base-vikaru-md"
+
++ "Ar-Vikar-Bot.csv"
++ "Ar-Vikaru-Input.csv"
++ "Tsk-Vikaru-Plugin.xml"
++ base-vikaru-md"
+
 - Get token for file access ( free update )
 - Given guidance to modify
 - Guided to be able to develop bots
