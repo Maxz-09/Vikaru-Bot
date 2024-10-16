@@ -219,7 +219,7 @@ This feature functions to update all files, make sure you back up the files befo
 
 ## Template Info 
 
-Sell : $1 / 15.000 IDR
+For sale : $1 / 15.000 IDR
 
 You can buy this script via this [Telegram](https://t.me/Maxtream_09)
 
