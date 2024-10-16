@@ -229,7 +229,7 @@ Or you can also contact this WhatsApp number :
 
 Get file :
 
-- Ar-Vikar-Bot.csv
+- Ar-Vikaru-Bot.csv
 - Ar-Vikaru-Input.csv
 - Tsk-Vikaru-Plugin.xml
 - base-vikaru-md
