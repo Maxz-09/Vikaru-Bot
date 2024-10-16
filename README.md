@@ -204,7 +204,7 @@ pkg install nodejs-lts -y
 ```
 628xxxx
 ```
-- Then copy the pairing code and enter the code via the WA notification that appears.
+- Then copy the pairing code and enter the code via the WhatsApp notification that appears.
   
 - Wait until it enters, then name the device as you wish.
 
