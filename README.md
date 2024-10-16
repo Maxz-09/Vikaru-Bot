@@ -200,7 +200,7 @@ pkg install nodejs-lts -y
 
 ### [4] Base-Vikaru-Md | ( start )
 
-- Enter the WA number (62: country code)
+- Enter the WhatsApp number (62: country code)
 ```
 628xxxx
 ```
