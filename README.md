@@ -56,7 +56,7 @@ The following is a menu list from the "vikaru.sh" script.
 
 Users who are new to using this script are required to use this feature only once.
 
-The function of this feature is to create a special folder for the bot called ".vikaru-bot" which aims to ensure that the downloaded files can be viewed through this folder so that users no need to move the file from the external termux files
+The function of this feature is to create a special folder for the bot called ".vikaru-bot" which aims to ensure that the downloaded files can be viewed through this folder so that users no need to move the file from external storage termux 
 
 ### [2] Ar-Vikaru-Bot | ( install )
 
