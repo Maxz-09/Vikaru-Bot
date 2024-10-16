@@ -215,7 +215,7 @@ pkg install nodejs-lts -y
 
 ### [5] All Script | ( Update )
 
-This feature functions to update all files, make sure you back up the files before updating because the update will overwrite files that you have not backed up. 
+This feature functions to update all files, make sure you back up the files before updating because the update will overwrite the files located in the ".vikaru-bot" directory
 
 ## Template Info 
 
