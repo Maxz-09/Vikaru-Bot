@@ -1,6 +1,6 @@
 ##### Perhatian ( Indonesian )
 
-Jika kamu pengguna chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan atas lalu pilih opsi "Terjemahkan"
+Jika kamu menggunakan chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan atas lalu pilih opsi "Terjemahkan..."
 
 ---
 
