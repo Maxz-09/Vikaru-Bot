@@ -97,9 +97,19 @@ Feature list :
    
 #### Getting Started
 
-1. Download the latest file via the "vikaru.sh" script and select option ( 5 ) to update the file.
+1. Change to your name (owner) via [mt manager](https://pan.mt2.cn/mt/MT2.16.7.apk)
 
----
+- <a href="https://">
+   <img alt="Github" height="200px" src="https://pomf2.lain.la/f/td30ot.jpg">
+  </a>
+
+- <a href="https://">
+   <img alt="Github" height="200px" src="https://pomf2.lain.la/f/mx0kom.jpg">
+  </a>
+
+- <a href="https://">
+   <img alt="Github" height="200px" src="https://pomf2.lain.la/f/tybe6il5.jpg">
+  </a>
 
 2. Import "Ar-Vikaru-bot.csv" file to Autoresponder
   
