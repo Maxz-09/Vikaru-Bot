@@ -200,7 +200,7 @@ pkg install nodejs-lts -y
 
 ### [4] Base-Vikaru-Md | ( start )
 
-- Then enter the WA number (62: country code)
+- Enter the WA number (62: country code)
 ```
 628xxxx
 ```
