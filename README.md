@@ -4,6 +4,10 @@ Jika kamu menggunakan chrome kamu bisa mengetuk titik 3 yang ada di pojok kanan 
 
 ---
 
+Welcome
+--------|
+![](https://media.tenor.com/iVCiM9W7cvYAAAAd/welcome.gif)
+
 # Vikaru-Bot
 
 Vikaru-Bot is a bot that uses a template from the Autoresponder application and also uses additional plugins from Tasker and Termux, this bot is quite simple and can be developed yourself. 
