@@ -4,13 +4,13 @@
 # Author - no wa : +6289508899033
 
 # Path to the file that stores the password
-PASSWORD_FILE =".pw.txt"
+PASSWORD_FILE= ".pw.txt"
 
 # Color List
-white ="\033[00m"
-red ="\033[31m"
-green ="\033[32m"
-yellow ="\033[33m"
+white= "\033[00m"
+red= "\033[31m"
+green= "\033[32m"
+yellow= "\033[33m"
 
 # Confirm resource check
 enter() {
