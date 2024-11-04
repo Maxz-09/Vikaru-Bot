@@ -272,6 +272,10 @@ fi
 # Fungsi untuk meminta password baru
 set_password() {
     clear
+    echo -e -n $white;figlet "  Sign up"
+    echo -e $white "-----------------------------"
+    echo -e "  Author : Maxtream_09"
+    echo -e "  GitHub : Maxz-09"
     echo
     echo -e $white "=-----------------------------"
     echo -e $yellow " # [!] Please create your password...."
