@@ -237,8 +237,6 @@ This feature functions to update all files, make sure you back up the files befo
 
 ## Template Info 
 
-Selling price : $1 / 15.000 IDR
-
 You can buy this script via this [Telegram](https://t.me/Maxtream_09)
 
 Or you can also contact this WhatsApp number :
