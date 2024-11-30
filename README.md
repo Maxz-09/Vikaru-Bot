@@ -56,7 +56,7 @@ bash vikaru.sh
 
 The following is a menu list from the "vikaru.sh" script.
 
-### [1] Creating a bot directory | ( 1x only )
+### [1] Creating a bot directory | ( one-time )
 
 Users who are new to using this script are required to use this feature only once.
 
@@ -201,6 +201,37 @@ The function of this option is to download the file "base-vikaru-md"
 
 This file is an "Vikaru-Md" ( multi device ) script which functions as an additional feature for sending media. 
 
+Feature list :
+- Read messages
+- Text messages
+- Media messages
+- Image messages
+- Link messages
+- Audio messages
+- Voice messages
+- Document messages
+- Contact messages
+- Catalog messages
+- Reaction messages
+
+Command list :
+- ping
+- menu
+- tagall
+- block
+- unblock
+- sound
+- addadmin
+- deladmin
+- addpremium
+- delpremium
+- gemini
+- anticall on/off
+- autoread on/off
+- autoreadsw on/off
+- virtex1
+- virtex2
+
 ##### Note :
 
 Make sure you have the latest version of nodeJS to avoid errors.
@@ -217,7 +248,10 @@ pkg install nodejs-lts -y
 ```
 
 ### [4] Base-Vikaru-Md | ( start )
-
+- Start bot
+```
+termux-setup-storage
+```
 - Enter the WhatsApp number (62: country code)
 ```
 628xxxx
