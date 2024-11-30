@@ -7,7 +7,7 @@
 # -  Sosmed    : https://linktr.ee/Maxtream_09
 
 
-# Color definitions (optional, comment out if not needed)
+# Color definitions
 white="\033[00m"
 red="\033[31m"
 green="\033[32m"
@@ -62,7 +62,7 @@ check_resource() {
   fi
 }
 
-# Main menu function (can be further simplified)
+# Vikaru-Menu
 menu() {
     clear
     echo -e -n $white;figlet "Vikaru-Menu"
@@ -295,5 +295,5 @@ else
 fi
 }
 
-# Call the main menu function
+# Start
 enter
