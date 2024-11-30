@@ -250,7 +250,7 @@ pkg install nodejs-lts -y
 ### [4] Base-Vikaru-Md | ( start )
 - Start bot
 ```
-termux-setup-storage
+npm start
 ```
 - Enter the WhatsApp number (62: country code)
 ```
