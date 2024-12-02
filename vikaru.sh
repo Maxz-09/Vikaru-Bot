@@ -176,7 +176,7 @@ elif [ $pil == "2" ];then
     sleep 1
     echo
     echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
-    echo
+    echo -e $white " "
     unzip "node_modules.zip"
     sleep 1
     echo
@@ -194,12 +194,12 @@ elif [ $pil == "3" ];then
     sleep 1
     echo 
     echo -e $yellow " • [/] Installing Bot...."|pv -qL 30
-    echo -e $white " " 
+    echo -e $white " "
     git clone https://github.com/Maxz-09/base-vikaru-md_demo
     sleep 1
     echo
-    echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
-    echo
+    echo -e $yellow " • [/] Unzip node_modules...."|pv -qL 30
+    echo -e $white " "
     unzip "node_modules.zip"
     sleep 1
     echo 
