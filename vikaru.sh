@@ -175,6 +175,7 @@ elif [ $pil == "2" ];then
     git clone https://github.com/Maxz-09/base-vikaru-md
     sleep 1
     echo
+    cd /storage/emulated/0/.vikaru-bot/base-vikaru-md
     echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
     echo -e $white " "
     unzip "node_modules.zip"
@@ -198,6 +199,7 @@ elif [ $pil == "3" ];then
     git clone https://github.com/Maxz-09/base-vikaru-md_demo
     sleep 1
     echo
+    cd /storage/emulated/0/.vikaru-bot/base-vikaru-md_demo
     echo -e $yellow " • [/] Unzip node_modules...."|pv -qL 30
     echo -e $white " "
     unzip "node_modules.zip"
