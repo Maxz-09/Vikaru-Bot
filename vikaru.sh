@@ -33,7 +33,7 @@ enter() {
     check_resource "figlet"
     check_resource "pv"
     check_resource "git"
-    check_resource "bash"
+    check_resource "unzip"
     check_resource "nodejs-lts"
     check_resource "libwebp"
     check_resource "ffmpeg"
@@ -155,6 +155,7 @@ if [ $pil == "1" ];then
     sleep 1
     echo -e $white
     git clone https://github.com/Maxz-09/ar-vikaru-bot
+    sleep 1
     echo 
     echo -e $green " # [✓] Succssesfully"|pv -qL 30
     sleep 2
@@ -173,7 +174,12 @@ elif [ $pil == "2" ];then
     echo -e $white " " 
     git clone https://github.com/Maxz-09/base-vikaru-md
     sleep 1
-    echo 
+    echo
+    echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
+    echo
+    unzip "node_modules.zip"
+    sleep 1
+    echo
     echo -e $green " # [✓] Succssesfully"|pv -qL 30
     sleep 2
     install
@@ -190,6 +196,11 @@ elif [ $pil == "3" ];then
     echo -e $yellow " • [/] Installing Bot...."|pv -qL 30
     echo -e $white " " 
     git clone https://github.com/Maxz-09/base-vikaru-md_demo
+    sleep 1
+    echo
+    echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
+    echo
+    unzip "node_modules.zip"
     sleep 1
     echo 
     echo -e $green " # [✓] Succssesfully"|pv -qL 30
