@@ -177,6 +177,7 @@ elif [ $pil == "2" ];then
     echo
     cd /storage/emulated/0/.vikaru-bot/base-vikaru-md
     echo -e $green " • [/] Unzip node_modules...."|pv -qL 30
+    sleep 2
     echo -e $white " "
     unzip "node_modules.zip"
     sleep 1
@@ -201,6 +202,7 @@ elif [ $pil == "3" ];then
     echo
     cd /storage/emulated/0/.vikaru-bot/base-vikaru-md_demo
     echo -e $yellow " • [/] Unzip node_modules...."|pv -qL 30
+    sleep 2
     echo -e $white " "
     unzip "node_modules.zip"
     sleep 1
